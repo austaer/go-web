@@ -1,3 +1,9 @@
+clone:
+  git:
+    image: puglins
+    depth: 50
+    tags: true
+
 pipeline:
   build:
     image: golang
