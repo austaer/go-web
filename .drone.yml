@@ -1,12 +1,15 @@
+workspace:
+  base: /go
+  path: src/github.com/austaer/go-web
 clone:
   git:
     image: puglins
     depth: 50
     tags: true
-
 pipeline:
   build:
     image: golang
+    pull: true
     commands:
     - go get
     - go build
