@@ -7,4 +7,4 @@ pipeline:
     commands:
     - go get
     - go test
-branches: master
+branches: [master, feature/*]
