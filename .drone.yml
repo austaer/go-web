@@ -3,7 +3,7 @@ workspace:
   path: src/github.com/austaer/go-web
 clone:
   git:
-    image: puglins
+    image: plugins
     depth: 50
     tags: true
 pipeline:
